@@ -45,7 +45,6 @@ btnAgregar.addEventListener("click", () => {
 
     const nombreTarea = tareaInput.value
     const id = tareasArray.length + 1
-
     tareasArray.unshift({
         id,
         descripcion: nombreTarea,
